@@ -19,6 +19,7 @@ const createBoxes = (amount) => {
     boxEl.style.backgroundColor = getRandomHexColor();
     refs.boxesEl.append(boxEl);
   }
+  
 };
 
 const onButtonClick = () => {
